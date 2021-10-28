@@ -1,0 +1,15 @@
+{
+    "name": "jvargas/php-mvc-framework",
+    "authors": [
+        {
+            "name": "jerry vargas",
+            "email": "jvargas@conversionia.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "require": {}
+}
