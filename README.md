@@ -1,4 +1,4 @@
-#NOTE
+# NOTE
 
 All credit goes to Zura. I made this repo to help follow along with him on youtube and named each branch after the video it corresponds eg.. part-1 = branch-1.
 

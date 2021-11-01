@@ -9,7 +9,8 @@ class Router
     protected array $routes = [];
 
     /**
-     * @param Request $request
+     * @param \app\core\Request $request
+     * @param \app\core\Request $response
      */
     public function __construct(Request $request, Response $response)
     {
@@ -55,7 +56,7 @@ class Router
 
     protected function layoutContent()
     {
-        $layout =Application::$app->controller->layout;
+        $layout = Application::$app->controller->layout;
         ob_start();
         include_once Application::$ROOT_DIR . "/views/layouts/$layout.php";
         return ob_get_clean();
